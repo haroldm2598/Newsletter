@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+$primary: hsl(4, 100%, 67%);
+$neutral--100: hsl(234, 29%, 20%);
+$neutral--200: hsl(235, 18%, 26%);
+$neutral--300: hsl(231, 7%, 60%);
+$neutral--400: hsl(0, 0%, 100%);
+
+$Roboto: 'Roboto', sans-serif;
+
+.app {
+	background: $neutral--100;
+	font-family: $Roboto;
+}
